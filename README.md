@@ -39,14 +39,24 @@ P-values (probability values) for the above variables are smaller than our signi
 
 According to the summary output, the r-squared value is 0.71, which predicts that approximatley 71% of all mpg predictions will be correct when using this linear model. In addition, the p-value of the linear model is 5.35e-11 (last line of the above picture in the F-statistic results), which is smaller (94.65%) than the desired significance level of 0.05 (95%).
 
+## Summary Statistics on Suspension Coils
 
+Code for Deliverable 2
+<img width="522" alt="Deliverable 2" src="https://user-images.githubusercontent.com/94575416/158074261-bf211e1b-591f-4454-b5bb-41205b8bf398.png">
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+The 'total_summary' for all 3 lots reveals the mean is steady at 1498.78 in all 150 rows of the total_summary table. The variance is reported at 62.29356 for all 150 rows of the total_summary table. The standard deviation is reported at 7.892627 for all 150 rows of the total_summary table. The median value of the table varies between 1452 and 1542. The variance of the PSI sample distribution and the standard deviation are well within the design specifications for all 3 lots and does not exceed 100 pounds per square inch.
 
+<img width="683" alt="Total Summary" src="https://user-images.githubusercontent.com/94575416/158074313-c9de6797-c28c-4a27-83a9-08905cfc2417.png">
 
+<img width="776" alt="Lot Summary" src="https://user-images.githubusercontent.com/94575416/158074376-fe790318-12a5-407c-875a-af91b6036cf9.png">
 
+<img width="859" alt="Suspension Coil" src="https://user-images.githubusercontent.com/94575416/158074385-aaeee889-a8ec-4575-a78b-38a1084bc2f5.png">
 
+Results of data analysis on the 3 suspension coil lots predicts that Lot 1 and Lot 2 meet design specification because the variance and standard deviation are under 100 pounds per square inch. However, Lot 3 does not predict to design specifications because variance and standard deviation are greater than 100 pounds per square inch.
 
+## T-Tests on Suspension Coils
 
 
 
